@@ -1,0 +1,6 @@
+langage: node_js
+node_js:
+  - '12'
+before_script:
+ - npm install -g typescript
+script: tsc
