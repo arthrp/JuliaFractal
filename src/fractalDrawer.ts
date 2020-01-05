@@ -14,7 +14,7 @@ class FractalDrawer
 
         for(var h = 0; h < maxHeight; h++){
             for(var w = 0; w < maxWidth; w++){
-
+                //Hardcoded pan
                 x = -1.5 + w * 3.0 / maxWidth;
                 y = -1.0 + h * 2.0 / maxHeight;
 

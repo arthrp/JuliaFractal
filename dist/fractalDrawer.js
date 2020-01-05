@@ -4,7 +4,6 @@ class FractalDrawer {
         this._ctx = _ctx;
     }
     draw(cReal) {
-        console.log(`drawing with ${cReal}`);
         const cImaginary = -0.6;
         const maxWidth = this._canv.width;
         const maxHeight = this._canv.height;
@@ -14,6 +13,7 @@ class FractalDrawer {
         let x = 0, y = 0;
         for (var h = 0; h < maxHeight; h++) {
             for (var w = 0; w < maxWidth; w++) {
+                //Hardcoded pan
                 x = -1.5 + w * 3.0 / maxWidth;
                 y = -1.0 + h * 2.0 / maxHeight;
                 let i = 0;
