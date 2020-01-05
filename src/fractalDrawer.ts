@@ -3,7 +3,6 @@ class FractalDrawer
     constructor(private readonly _canv: HTMLCanvasElement, private readonly _ctx: CanvasRenderingContext2D) {}
 
     public draw(cReal: number): void {
-        console.log(`drawing with ${cReal}`);
         const cImaginary = -0.6;
 
         const maxWidth = this._canv.width;
